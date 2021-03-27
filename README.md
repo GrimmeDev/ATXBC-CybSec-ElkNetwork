@@ -85,8 +85,8 @@ This ELK server is configured to monitor the following machines:
 - 10.0.0.6
 
 We have installed the following Beats on these machines:
-- 10.0.0.5
-- 10.0.0.6
+- Filebeats
+- Metricbeats
 
 These Beats allow us to collect the following information from each machine:
 - Filebeats: Collects log events
