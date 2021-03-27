@@ -60,8 +60,8 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | No | 70.113.47.61 |
-| Web-1| Yes | Any |
-| Web-2| Yes | Any|
+| Web-1| No | 70.113.47.61 |
+| Web-2| No | 70.113.47.61|
 | ELK | No | 70.113.47.61 |
 
 ### Elk Configuration
@@ -77,7 +77,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![Post install container check for ELK](Diagrams/elkContainer.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
